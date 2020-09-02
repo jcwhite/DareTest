@@ -1,0 +1,123 @@
+{
+  "runtimeTarget": {
+    "name": ".NETStandard,Version=v2.0/",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETStandard,Version=v2.0": {},
+    ".NETStandard,Version=v2.0/": {
+      "Core/1.0.0": {
+        "dependencies": {
+          "NETStandard.Library": "2.0.3",
+          "Newtonsoft.Json": "12.0.3",
+          "Umbraco.ModelsBuilder": "8.1.0",
+          "UmbracoCms.Core": "8.6.4",
+          "UmbracoCms.Web": "8.6.4"
+        },
+        "runtime": {
+          "Core.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/1.1.0": {},
+      "NETStandard.Library/2.0.3": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "1.1.0"
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "Umbraco.ModelsBuilder/8.1.0": {
+        "runtime": {
+          "lib/net472/Umbraco.ModelsBuilder.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.1.0.0"
+          }
+        }
+      },
+      "UmbracoCms.Core/8.6.4": {
+        "runtime": {
+          "lib/net472/Umbraco.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.4.0"
+          }
+        }
+      },
+      "UmbracoCms.Web/8.6.4": {
+        "runtime": {
+          "lib/net472/Umbraco.Examine.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.4.0"
+          },
+          "lib/net472/Umbraco.ModelsBuilder.Embedded.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.4.0"
+          },
+          "lib/net472/Umbraco.Web.UI.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.4.0"
+          },
+          "lib/net472/Umbraco.Web.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.6.4.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "path": "microsoft.netcore.platforms/1.1.0",
+      "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "NETStandard.Library/2.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "path": "netstandard.library/2.0.3",
+      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "Umbraco.ModelsBuilder/8.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-N8Vdscxdac7su7cCm7ZwhA2Zi3rL8EG9xuPy5WBly0pRKm46LWlF38spQ+B3TNjhvBKb2dSDfUaotIS3XPLoTA==",
+      "path": "umbraco.modelsbuilder/8.1.0",
+      "hashPath": "umbraco.modelsbuilder.8.1.0.nupkg.sha512"
+    },
+    "UmbracoCms.Core/8.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OS0DcWLAXCQ0iy42WLW4Z6Rqd+y6gWTmcyw8mFI3GF1Wa84yxiq8aGvniWhyiTF107L5LWjJ+PdVLxY+tv5jaA==",
+      "path": "umbracocms.core/8.6.4",
+      "hashPath": "umbracocms.core.8.6.4.nupkg.sha512"
+    },
+    "UmbracoCms.Web/8.6.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tgF3dk9LtaQ62qLZAJwrbZzHRREooAowycQQlfTViTL2VXqEtYbSsgoLteKoEqt5tRLog7LIZDYgvoQV5BPInw==",
+      "path": "umbracocms.web/8.6.4",
+      "hashPath": "umbracocms.web.8.6.4.nupkg.sha512"
+    }
+  }
+}

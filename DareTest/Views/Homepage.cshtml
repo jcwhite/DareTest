@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<Core.Models.Homepage>
+@using ContentModels = Umbraco.Web.PublishedModels;
+@{ Layout = null; }
+
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>@Model.Name</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="@Url.Content("~/css/umbraco-starterkit-style.css")" />
+</head>
+
+<body>
+    <main>
+        @if (!string.IsNullOrEmpty(Model.Title))
+        {
+            <h1>@Model.Title</h1>
+        }
+
+        @if (Model.Videos.Any())
+        {
+            <ul class="videos-list">
+
+                @foreach (var video in Model.Videos)
+                {
+                    <li>
+                        <a href="@video.Link">
+                            <h2>@video.Title</h2>
+                            <img src="@video.Thumbnail" />
+                        </a>
+                    </li>
+                }
+
+            </ul>
+        }
+
+        @if (!string.IsNullOrEmpty(Model.ButtonText))
+        {
+            <button class="btn-update" data-id="@Model.Id">@Model.ButtonText</button>
+        }
+
+    </main>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+    <script src="@Url.Content("~/scripts/main.js")"></script>
+</body>
+</html>
